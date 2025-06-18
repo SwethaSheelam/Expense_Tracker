@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Expense Tracker</title>
-    <style>* {
+* {
     box-sizing: border-box;
 }
 
@@ -108,49 +103,3 @@ h1 {
     padding: 0;
     margin-bottom: 20px;
 }
-</style>
-</head>
-<body>
-    <div class="container">
-        <h2>Expense Tracker</h2>
-        <div class="balance-box">
-            <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="calc" class="icon">
-            <h3>Your Balance</h3>
-            <h1>$0.00</h1>
-        </div>
-
-        <div class="inc-exp-container">
-            <div>
-                <h4>INCOME</h4>
-                <p class="money plus">+$0.00</p>
-            </div>
-            <div>
-                <h4>EXPENSES</h4>
-                <p class="money minus">-$0.00</p>
-            </div>
-        </div>
-
-        <h3>History</h3>
-        <ul class="list">
-            <!-- Transactions will be appended here -->
-        </ul>
-
-        <h3>Add new transaction</h3>
-        <form id="form">
-            <div class="form-control">
-                <label for="text">Description</label>
-                <input type="text" id="text" placeholder="Enter description..." />
-            </div>
-            <div class="form-control">
-                <label for="amount">Amount<br />
-                    (-100 = expense, 100 = income)</label>
-                <input type="number" id="amount" placeholder="Enter amount..." />
-            </div>
-            <button class="btn">Add transaction</button>
-        </form>
-    </div>
-</body>
-</html>
-
-</body>
-</html>
